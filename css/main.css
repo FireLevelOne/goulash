@@ -3,6 +3,7 @@
 }
 
 header {
+	z-index: 1;
 	text-align: center;
 	width: 100%;
 	background-color: black;
@@ -11,13 +12,13 @@ header {
 }
 
 ul.main-nav { 
-margin: 0;
-padding: 0;
-font-family: 'Mina', sans-serif;
-text-transform: uppercase;
-font-size: 25px;
-letter-spacing: 1px;
-font-weight: bold;
+	margin: 0;
+	padding: 0;
+	font-family: 'Mina', sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-weight: bold;
 }
 
 ul.main-nav li { 
@@ -29,8 +30,13 @@ ul.main-nav li {
 
 body {background-color: rgb(42,42,42);}
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
 	font-family: 'Mina', sans-serif;
+}
+
+.red-center {
+	text-align: center;
+	color: rgb(255,24,0);
 }
 
 .center-color0 {
@@ -44,6 +50,10 @@ h1, h2 {
 
 p {
 	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.indent {
+	text-indent: 20px;
 }
 
 .pad-color0 {

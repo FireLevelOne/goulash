@@ -1,21 +1,25 @@
+.clear {
+	clear: both;
+}
+
 header {
+	z-index: 1;
 	text-align: center;
 	width: 100%;
 	background-color: black;
 	padding: 5px;
 	position: fixed;
-	z-index: 2;
 }
 
 ul.main-nav { 
-margin: 0;
-padding: 0;
-font-family: 'Mina', sans-serif;
-text-transform: uppercase;
-font-size: 25px;
-letter-spacing: 1px;
-font-weight: bold;
- }
+	margin: 0;
+	padding: 0;
+	font-family: 'Mina', sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
 
 ul.main-nav li { 
 	list-style-type: none;
@@ -26,21 +30,30 @@ ul.main-nav li {
 
 body {background-color: rgb(42,42,42);}
 
-h2 {
+h1, h2, h3, h4, h5 {
 	font-family: 'Mina', sans-serif;
+}
+
+.red-center {
+	text-align: center;
+	color: rgb(255,24,0);
 }
 
 .center-color0 {
 	text-align: center;
-	background-color: rgb(255,24,0); 
+	background-color: rgb(255,24,0);
 }
 
 .red {
-	background-color: red; padding: 100px;
+	background-color: rgb(255,24,0); padding: 100px;
 }
 
 p {
 	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.indent {
+	text-indent: 20px;
 }
 
 .pad-color0 {
@@ -53,5 +66,6 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;
-	padding-bottom: 20px;
+	padding-bottom: 25px;
+	padding-top: 25px;
 }
